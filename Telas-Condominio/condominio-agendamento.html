@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Agendamento</title>
     <script languague="javascript"> 
       function popup(){ window.open('termos-lgpd.html','popup','width=1280,height=720,scrolling=auto,top=0,left=0') }
     </script> 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/style-cadastro-emp.css">
+    <link rel="stylesheet" href="/css/style-condominio/style-condominio-agendamento.css">
     
     <!--<a href="https://storyset.com/city">City illustrations by Storyset</a>-->
-    <link rel="shortcut icon" type="image/jpg" href="img/Home/favicon.ico"/>
+    <link rel="shortcut icon" type="image/jpg" href="../img/Home/favicon.ico"/>
 </head>
 <body>
     <header>
@@ -27,7 +27,7 @@
             <li class="a-hover"><a href="#"></a></li>
           </ul>
           <ul class="nav-list">
-            <li class="a-hover"><a href="index.html">Voltar</a></li>
+            <li class="a-hover"><a href="/Telas-Condominio/condominio-principal.html">Voltar</a></li>
           </ul>
         </nav>
       </header>
@@ -46,37 +46,32 @@
                   <input id="nome-condominio" type="text" name="nome-condominio" placeholder="Informe o nome do condominio" required>
                 </div>
                 <div class="input-box">
-                  <label for="cpf/cnpj">CPF ou Senha</label>
-                  <input id="cpf/cnpj" type="password" name="cpf/cnpj" placeholder="Informe o CPF ou Senha" required>
+                  <label for="cpf/cnpj">CPF ou CNPJ</label>
+                  <input id="cpf/cnpj" type="text" name="cpf/cnpj" placeholder="Digite o CPF ou CNPJ" required>
                 </div>
                 <div class="input-box">
-                  <label for="cnpj">CNPJ</label>
-                  <input id="cnpj" type="text" name="cnpj" placeholder="Digite o CPF ou CNPJ" required>
+                  <label for="moradores">Moradores</label>
+                  <input id="moradores" type="text" name="moradores" placeholder="Digite a quantidade de moradores" required>
                 </div>
-                <div class="input-box">
-                  <label for="number">Telefone</label>
-                  <input id="number" type="tel" name="number" placeholder="Digite seu Telefone" required>
-                </div>
-                <div class="security">
                   <div class="security-select">
-                    <label for="security">Pergunta</label>
-                    <select name="security" id="">
-                      <option selected="" value="" disabled>Pergunta de Segurança</option>
-                      <option value="mae">Nome da sua mãe</option>
-                      <option value="pet">Nome do seu PET</option>
-                      <option value="fruta">Nome da Fruta Favorita</option>
+                    <label for="recorrencia">Recorrência</label>
+                    <select name="recorrencia" id="">
+                      <option selected="" value="" disabled>Recorrência</option>
+                      <option value="semanal">Semanal</option>
+                      <option value="quinzenal">Quinzenal</option>
+                      <option value="mensal">Mensal</option>
                     </select>
                   </div>
-                  <div class="security-resposta">
-                    <label for="resposta">Resposta</label>
-                    <input id="resposta" type="text" name="resposta" placeholder="Resposta" required>  
+                <div class="data-hora">
+                  <div class="input-data">
+                    <label for="hora">Hora</label>
+                    <input id="hora" type="time" name="hora" placeholder="hora" required>  
+                  </div>
+                  <div class="input-hora">
+                    <label for="data">Data</label>
+                    <input id="data" type="date" name="data" placeholder="data" required>  
                   </div>
                 </div>
-                
-              </div>
-              <div class="check-box">
-                <input type="checkbox" id="lgpd" name="lgpd">
-                <label for="lgpd"><a href="javascript:popup()">Concordo com os termos da LGPD</a></label>
               </div>
               <div class="continue-button">
                 <button><a href="#">Continuar</a></button>

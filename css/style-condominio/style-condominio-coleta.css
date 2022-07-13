@@ -17,22 +17,37 @@ body {}
     justify-content: center ;
     align-items: center;
 }
-
 .dados {
-    background-color: var(--primary);
-    width: 40%;
+    background: linear-gradient(to right, #56D195, #5ADB78);
+    width: 25%;
     height: 60vh;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     display: flex;
     flex-direction: column;
+}
+
+.local {
+    background: linear-gradient(to right, #5ADB78, #61F257);
+    width: 25%;
+    height: 60vh;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.local-text {
+    margin-top: 8.5rem;
+}
+
+.local-text .text-h3 {
+    padding-top: 8px;
 }
 
 .text-h1 {
     text-transform: uppercase;
     display: flex;
-    justify-content: center ;
-    align-items: center;
-    margin: 3rem 0;
+
+    margin: 3rem 3rem;
     color: aliceblue;
     text-shadow: 2px 2px black;
     transition: 0.6s;
@@ -52,18 +67,23 @@ body {}
 .text-h3 > h3 {
     text-transform: uppercase;
     display: flex;
-    margin-left: 8rem;
+    margin-left: 3rem;
     align-items: center;
     color: aliceblue;
     text-shadow: 2px 2px black; 
+    font-weight: 800;
 }
 .text-h3 > p {
     text-transform: uppercase;
     display: flex;
-    margin-left: 8rem;
+    margin-left: 3rem;
     align-items: center;
-    color: rgb(0, 0, 0);
-    text-shadow: 0.5px 0.5px rgb(255, 255, 255);  
+    color: rgb(0, 0, 0); 
+    font-weight: 600;
+}
+
+.data-hora {
+    display: flex;
 }
 
 .text-h3 {
@@ -72,13 +92,12 @@ body {}
 
 .button{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 3rem;
 }
 
 .button > button {
-    width: 20%;
-    padding: 9px 0px;
+    width: 70%;
+    padding: 12px 0px;
     border: none;
     border-radius: 6px;
     outline: none;
@@ -92,6 +111,7 @@ body {}
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px black ;
     margin: 20px 0rem;
+    margin-left: 2rem;
 }
 
 .checkbox > input {
@@ -101,8 +121,7 @@ body {}
 }
 
 .checkbox {
+    margin-left: 3rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
 }

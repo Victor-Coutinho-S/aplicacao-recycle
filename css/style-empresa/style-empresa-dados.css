@@ -22,69 +22,24 @@
     justify-content: center;
     align-items: center;
 }
-
-.security-select {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 12px;
-}
-
-.security-select > label {
-    margin-bottom: 12px;
-}
-
-.security-resposta {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-.data-hora {
-    display: flex;
-    justify-content: space-between;
-}
-
-.data-hora {
-    color: white;
-}
-.input-data > input {
-
-    display: flex;
-    text-align: center;
+.input-box > h4 {
+    width: 24vw;
+    background-color: white;
+    
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 8px;
-    color: rgb(96, 110, 97) ;
+    color: rgb(0, 0, 0) ;
     box-shadow: 0px 10px 40px #00000056;
 }
-.input-hora > input {
-
-    display: flex;
-    text-align: center;
-    margin: 0.6rem 0;
-    padding: 0.8rem 0;
-    border: none;
-    border-radius: 8px;
-    color: rgb(96, 110, 97) ;
-    box-shadow: 0px 10px 40px #00000056;
-}
-
-.security-select > select {
-    border: none;
-    padding: 4px;
-    background-color: white;
-    border-radius: 8px;
-    margin-left: ;
-}
-
 
 .form {
     
     width: 35%;
-    height: 88vh;
+    height: 68vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     background-color: var(--primary);
@@ -94,32 +49,32 @@
 
 .form-end {
     width: 30%;
-    height: 88vh;
+    height: 68vh;
     display: flex;
+    justify-content: flex-start;
     align-items: flex-end;
     flex-direction: column;
     background-color: var(--primary);
     border-radius: 0px 20px 20px 0px;
-    padding: 3rem;
+    padding-right: 3rem;
+    padding-top: 7.7rem;
 }
 
-
-.form-end > form {
-    margin-top: 7.8rem;
-}
 
 .cep-rua {
     display: flex;
     padding: 1rem 0;
+    align-items: flex-end;
 }
 
-.input-CEP > input {
+.input-CEP > h4 {
     width: 10vw;
+    background-color: white;
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
+    color: black;
     border-radius: 8px;
-    color: rgb(96, 110, 97) ;
     box-shadow: 0px 10px 40px #00000056;
 }
 
@@ -129,9 +84,10 @@
     color: white;
 }
 
-.input-numero > input {
+.input-numero > h4 {
     width: 9vw;
     margin: 0.6rem 0;
+    background-color: white;
     margin-left: 2.3rem;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -146,30 +102,6 @@
     justify-content: space-between;
 }
 
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
-.login-button button {
-    border: none;
-    background-color: rgba(0, 0, 0, 0.568);
-    padding: 0.4rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px black ;
-}
-.login-button button a{
-    text-decoration: none;
-    font-weight: 800;
-    letter-spacing: 2.5px;
-    color: white ;
-}
-
-.login-button button:hover {
-    background-color: rgba(0, 0, 0, 0.450);
-    transition: 0.6s;
-}
 
 .form-header h1::after {
     content: '';
@@ -212,15 +144,6 @@
     margin-left: ;
 }
 
-.input-box > input {
-    width: 22vw;
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 8px;
-    color: rgb(96, 110, 97) ;
-    box-shadow: 0px 10px 40px #00000056;
-}
 
 .continue-button {
     display: flex;
