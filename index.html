@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Recycle</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body>
@@ -24,11 +26,108 @@
           <li><a href="#">Contato</a></li>
         </ul>
         <ul class="nav-list">
-          <li><a href="#">Login</a></li>
+          <li><a href="#">Empresa</a></li>
+          <li><a href="#">Condomínio</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <div class="container">
+      <div class="topo">
+      <div class="principal-text">
+        <div class="text">
+        <h1 class="ajude t1">Ajude o Mundo</h1>
+        <h1 class="ajude t2">COM A <div class="recicle">RECycle</div></h1>
+          <p>Venha fazer parte da transformação
+             de um mundo mais conciente</p>
+        </div>
+          <div class="navigation">
+
+              <label class="bar" for="slide1"><img src="img/Home/Metal-.png" alt="" width="40px"></label>
+              <label class="bar" for="slide2"><img src="img/Home/Papel-.png" alt="" width="40px"></label>
+              <label class="bar" for="slide3"><img src="img/Home/Plastico-.png" alt="" width="40px"></label>
+              <label class="bar" for="slide4"><img src="img/Home/Vidro-.png" alt="" width="40px"></label>
+      
+          </div>
+      </div>
+      <div class="content">
+
+        <div class="slides">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+
+            <div class="slide s1">
+                <img src="./img/Home/Metal-.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/Home/Papel-.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/Home/plastico-.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="./img/Home/Vidro-.png" alt="">
+            </div>
+        </div>
+  
+    </div>
+          <div class="box">
+            <h4>Cadastro</h4>
+            <div class="box-cadastro">
+            <div class="cadastro-empresa">
+              <button><a href="#">Empresa</a></button>
+            </div>
+            <div class="cadastro-condominio">
+              <button><a href="#">Condomínio</a></button>
+            </div>
+          </div>
+          </div>
+      </div>
+      <div class="sobre">
+        <div class="planeta">
+          <img src="/img/Home/planeta.svg" alt="planeta">
+        </div>
+        <div class="texto-sobre">
+          <div class="text-planeta">
+            <h2>A RECycle SURGIU PARA TRANSFORMARMOS O MUNDO EM UM LOCAL MAIS VERDE.</h2>
+          </div>  
+          <div class="text-surgimento">
+            <p>Surgimos para descomplicar a coleta seletiva, com os pontos de coletas e as empresas cadastradas, conseguimos destinar boa parte do que viraria um simples lixo em algo renovável e ecológico para o planeta.   </p>
+          </div>
+        </div>
+      </div>
+      <div class="tutorial">
+        <div class="texto-tutorial">
+          <h2>A reciclagem é o maior gesto de amor que podemos fazer pelo planeta.</h2>
+          <p>Então que tal aprender de forma rápida como reciclar?</p>
+        </div>
+        <div class="video-tutorial">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcymnW5NRYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--<footer>
+    <div class="footer">
+      <div class="contato">
+        <p>Contatos</p>
+      </div>
+      <div class="contato-img">
+        <div class="icon">
+          <a href="#"><img src="img/Home/instagram.png" alt=""></a>
+          <a href="#">@ReclyclePE</a>
+        </div>
+        <div class="icon">
+          <a href="#"><img src="img/Home/gmail.png" alt="" class="img-icon"></a>
+          <a href="#">startrecyclepe@gmail.com</a>
+        </div>
+      </div> 
+    </div>
+    </footer>-->
     <script src="js/mobile-navbar.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

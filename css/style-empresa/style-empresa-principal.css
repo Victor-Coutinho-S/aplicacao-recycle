@@ -120,4 +120,47 @@ main.cards section.card.n3 {
     box-shadow: 20px 20px 50px -30px var(--primary);
 } 
 
-/* Lista CSS */
+@media screen and (max-height: 880px) {
+    main.cards section.card {
+    height: 36vh;
+    }
+    main.cards {
+        margin-top: 1rem;
+    }
+
+  }
+  @media screen and (max-height: 800px) {
+    main.cards section.card {
+    height: 38vh;
+    }
+    main.cards {
+        margin-top: 2rem;
+    }
+
+  }  
+
+  @media screen and (max-height: 780px) {
+    main.cards section.card {
+    height: 40vh;
+    }
+    main.cards {
+        margin-top: 3rem;
+    }
+
+  }
+  
+  
+  @media screen and (max-width: 1270px) {
+    main.cards section.card.n3 {
+        
+    }
+    main.cards section.card span {
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        padding-top: 1rem;
+    }
+    main.cards section.card button {
+        margin-top: 1rem;
+    }
+
+  }
